@@ -1,11 +1,9 @@
 package solva.solvaTestProject.dto;
 
-import jakarta.persistence.Column;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.time.ZonedDateTime;
-import java.util.Date;
 
 @Getter
 @Setter
