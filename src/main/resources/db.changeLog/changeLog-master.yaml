@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: changeLog/changeSet/create-table.sql
+  - include:
+      file: changeLog/changeSet/changeLog-master.yaml
