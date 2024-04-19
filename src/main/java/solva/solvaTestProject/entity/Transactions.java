@@ -13,23 +13,23 @@ public class Transactions {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id;
+    private int id;
 
     @Column(name = "account_id")
-    int accountId;
+    private int accountId;
 
     @Column(name = "limit_balance")
-    double limitBalance;
+    private double limitBalance;
 
     @Column(name = "transaction_date")
-    ZonedDateTime transactionDate;
+    private ZonedDateTime transactionDate;
 
     @Column(name = "transaction_amount")
-    double transactionAmount;
+    private double transactionAmount;
 
     @Column(name = "transaction_type")
-    String transactionType;
+    private String transactionType;
 
     @Column(name = "limit_exceeded")
-    boolean limitExceeded;
+    private boolean limitExceeded;
 }

@@ -8,13 +8,13 @@ import java.time.ZonedDateTime;
 @Getter
 @Setter
 public class TransactionsDto {
-    int id;
-    int accountId;
-    double limitBalance;
-    ZonedDateTime transactionDate;
-    double transactionAmount;
-    String transactionType;
-    boolean limitExceeded;
+    private int id;
+    private int accountId;
+    private double limitBalance;
+    private ZonedDateTime transactionDate;
+    private double transactionAmount;
+    private String transactionType;
+    private boolean limitExceeded;
 
     public TransactionsDto() {
     }

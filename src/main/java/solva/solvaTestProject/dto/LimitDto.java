@@ -11,11 +11,11 @@ import java.util.Date;
 @Setter
 public class LimitDto {
 
-    int id;
-    int accountId;
-    ZonedDateTime limitDate;
-    double limit;
-    String currencyShortname;
+    private int id;
+    private int accountId;
+    private ZonedDateTime limitDate;
+    private double limit;
+    private String currencyShortname;
 
     public LimitDto(int id, int accountId, ZonedDateTime limitDate, double limit, String currencyShortname) {
         this.id = id;
